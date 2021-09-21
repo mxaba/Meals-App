@@ -11,7 +11,7 @@ class CategoryMealsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("The Recipies"),
+        title: Text(categoryTitle),
       ),
       body: Center(
         child: Text("The Recipies for the category!"),
